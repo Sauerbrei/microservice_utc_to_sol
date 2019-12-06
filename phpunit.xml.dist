@@ -13,6 +13,7 @@
         <server name="SHELL_VERBOSITY" value="-1" />
         <server name="SYMFONY_PHPUNIT_REMOVE" value="" />
         <server name="SYMFONY_PHPUNIT_VERSION" value="7.5" />
+        <server name="KERNEL_CLASS" value="Billie\MarsTimeService\Kernel" />
     </php>
 
     <testsuites>
@@ -24,6 +25,12 @@
     <filter>
         <whitelist>
             <directory>src</directory>
+            <exclude>
+                <directory>src/Exception</directory>
+                <directory>src/Interfaces</directory>
+                <directory>src/Model</directory>
+                <file>src/Kernel.php</file>
+            </exclude>
         </whitelist>
     </filter>
 

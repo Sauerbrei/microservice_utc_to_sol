@@ -1,5 +1,7 @@
 {
     "type": "project",
+    "description": "Demo Coding Project",
+    "name": "sauerbrei/billie_microservice",
     "license": "proprietary",
     "require": {
         "php": "^7.2.5",
@@ -17,7 +19,7 @@
         "symfony/notifier": "5.0.*",
         "symfony/process": "5.0.*",
         "symfony/security-bundle": "5.0.*",
-        "symfony/serializer-pack": "*",
+        "symfony/serializer-pack": "^1.0.2",
         "symfony/string": "5.0.*",
         "symfony/validator": "5.0.*",
         "symfony/web-link": "5.0.*",

@@ -20,7 +20,7 @@ https://symfony.com/download
 
 ## Endpoints
 
-    POST localhost:8000/api/convert/utc7
+    POST localhost:8000/api/convert/utc
     /** POST */
     { 'utc': 'Y-m-d\TH:i:sO' }
 

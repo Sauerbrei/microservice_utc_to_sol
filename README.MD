@@ -1,10 +1,6 @@
-# Billie Mars Time Converter Service
+# Mars Time Converter Service
 
 PHP 7.4 installed is highly recommended.
-
-Be aware, this is rather a coding-demo project,
-than actually a full suite. So there might some unittests are missing.
-I've added one, though. A full integration test is also included.
 
 ## Execution
 ### Tests
@@ -14,7 +10,7 @@ I've added one, though. A full integration test is also included.
 Install Symfony
 https://symfony.com/download
 
-    cd to/this/project/billie_microservice
+    cd to/this/project
     symfony server:start
 
 

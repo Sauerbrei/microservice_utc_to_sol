@@ -1,4 +1,5 @@
 # Mars Time Converter Service
+This project converts mars time to utc as a microservice.
 
 PHP 7.4 installed is highly recommended.
 
